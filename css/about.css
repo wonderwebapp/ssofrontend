@@ -1,0 +1,12 @@
+.about-info svg{
+    fill:var(--primary-color);
+}
+.about-info-selected *{
+    color: var(--primary-color);
+}
+.arrow{
+    transition: all 0.3s;
+}
+.about-info-selected .arrow{
+    transform: rotate(90deg);
+}
