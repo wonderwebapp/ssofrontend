@@ -1,5 +1,5 @@
-<link rel="stylesheet" href="css/partners.cssv=<?=$v?>">
-<script src="js/partners.jsv=<?=$v?>"></script>
+<link rel="stylesheet" href="css/partners.css?v=<?=$v?>">
+<script src="js/partners.js?v=<?=$v?>"></script>
 
 <div id="partners" class="container-fluid mb-5 p-0 pb-5 bg-light" ">
     <div class="d-flex justify-content-center">
@@ -10,7 +10,7 @@
             Our Partners
         </h1>
     </div>
-    <section class="sponsors-logos slider" >
+    <section class="partners-logos slider" >
         <div class="slide"><img src="https://image.freepik.com/free-vector/luxury-letter-e-logo-design_1017-8903.jpg"></div>
         <div class="slide"><img src="http://www.webcoderskull.com/img/logo.png"></div>
         <div class="slide"><img src="https://image.freepik.com/free-vector/3d-box-logo_1103-876.jpg"></div>

@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/slider.css?v=<?= time() ?>">
+<link rel="stylesheet" href="css/slider.css?v=<?= $v?>">
 
 
 <section id="home" class="dvd_fixed_slider w-100 overflow-hidden">
