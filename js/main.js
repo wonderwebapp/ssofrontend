@@ -18,21 +18,16 @@ $(function () {
         var scroll = $(window).scrollTop();
         if (scroll > position) {
             //scroll down
-            if (scroll > 2000) {
+            if (scroll > 100) {
                 $navScroll.fadeIn();
-
-            }
-
-            if (scroll > 2000) {
-
                 $scrollToTop.fadeIn();
-
             }
 
+           
 
         } else {
             //scroll top
-            if (scroll <= 2000) {
+            if (scroll <= 100) {
 
                 $navScroll.hide();
 
