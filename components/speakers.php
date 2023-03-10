@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="css/speakers.css">
+<link rel="stylesheet" href="css/speakers.css?v=<?=$v?>">
 <section id="speakers">
     <div class="container my-5">
         <div class="d-flex justify-content-center">

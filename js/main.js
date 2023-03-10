@@ -2,13 +2,15 @@ var TABLET_WIDTH = 1000;
 var PHONE_WIDTH = 700;
 var $navLogo;
 var $scrollToTop;
+var $navScroll;
 var windowWidth;
 $(function () {
     AOS.init();
 
     $('[data-toggle="tooltip"]').tooltip();
-    
+
     $navLogo = $("#navLogo");
+    $navScroll = $("#navScroll");
     $scrollToTop = $("#scrollToTop");
     var position = $(window).scrollTop();
     windowWidth = $(window).width();
@@ -16,18 +18,26 @@ $(function () {
         var scroll = $(window).scrollTop();
         if (scroll > position) {
             //scroll down
-            if (scroll > 50) {
-                //when the user scroll, show the logo in nav if its hidden
-                if ($navLogo.css("display") == "none") {
-                    $navLogo.removeClass("d-lg-none").hide().show(400);
-                }
+            if (scroll > 2000) {
+                $navScroll.fadeIn();
+
+            }
+
+            if (scroll > 2000) {
 
                 $scrollToTop.fadeIn();
+
             }
 
 
         } else {
             //scroll top
+            if (scroll <= 2000) {
+
+                $navScroll.hide();
+
+            }
+
 
         }
 

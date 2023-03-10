@@ -1,7 +1,7 @@
-<link rel="stylesheet" href="css/partners.css">
-<script src="js/partners.js"></script>
+<link rel="stylesheet" href="css/partners.cssv=<?=$v?>">
+<script src="js/partners.jsv=<?=$v?>"></script>
 
-<div id="partners" class="container-fluid mb-5 pb-5 bg-light" ">
+<div id="partners" class="container-fluid mb-5 p-0 pb-5 bg-light" ">
     <div class="d-flex justify-content-center">
         <h1 class="text-theme fw-bold  border-bottom border-3 border-theme my-5 px-2">
             <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">

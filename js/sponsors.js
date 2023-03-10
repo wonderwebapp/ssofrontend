@@ -7,6 +7,7 @@ $(document).ready(function(){
         arrows: false,
         dots: false,
         pauseOnHover: false,
+        rtl: $("body").attr("dir")=="rtl", 
         responsive: [{
             breakpoint: 768,
             settings: {

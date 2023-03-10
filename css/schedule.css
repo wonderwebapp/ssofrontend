@@ -1,0 +1,15 @@
+.schedule-selected{
+    background-color: var(--primary-color) !important;
+    color: white !important;
+}
+@media screen and (max-width:768px) {
+    .schedule-row {
+        background-color: #f0f6fa;
+        margin: 0.5rem 0;
+        padding: 1rem 0;
+    }
+    .schedule-row>div{
+        border: none !important;
+    }
+
+}
